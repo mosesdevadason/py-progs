@@ -1,0 +1,8 @@
+srcmac=00:01:02:03:04:05
+dstmac=aa:bb:cc:dd:ee:ff
+inc_srcmac=yes
+inc_dstmac=yes
+vlan=100
+inc_vlan=yes
+totpkts=10000
+pps=1000
