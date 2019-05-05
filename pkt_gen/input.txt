@@ -1,8 +1,9 @@
 srcmac=00:01:02:03:04:05
-dstmac=aa:bb:cc:dd:ee:ff
+dstmac=aa:bb:cc:dd:ee:aa
 inc_srcmac=yes
 inc_dstmac=yes
-vlan=100
+vlan=2000
 inc_vlan=yes
-totpkts=10000
-pps=1000
+l2payload_size=512
+totpkts=1000
+pps=100
