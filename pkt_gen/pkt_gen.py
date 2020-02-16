@@ -102,7 +102,7 @@ def read_params(filename=DEFAULT_INPUT_CFG_FILE, iface=DEFAULT_IFACE):
     :return: Packet generator params as a dictionary.
     """
     params = {}
-    params['iface'] = 'lo'
+    params['iface'] = iface
     with open(filename) as streamfile:
         for line in streamfile:
             (key, val) = line.split('=')
